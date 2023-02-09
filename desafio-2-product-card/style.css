@@ -98,3 +98,8 @@ p{
 
     background-color: transparent;
 }
+
+#product-details button:hover{
+    background-color: #d0c2f0;
+    cursor: pointer;
+}
