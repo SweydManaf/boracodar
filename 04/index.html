@@ -29,7 +29,7 @@
             <div class="status">Online</div>
           </div>
         </div>
-        <div id="close-chat"><i class="ph-x"></i></div>
+        <div id="close-chat"><button onclick="closeApp()"><i class="ph-x"></button></i></div>
       </div>
 
       <div id="messages">
@@ -57,18 +57,12 @@
       </div>
 
       <div id="bottom">
-        <form action="">
             <div class="input-wrapper">
-                <input type="text" placeholder="Digie sua mensagem" required>
-                <button><i class="ph-paper-plane-right"></i></button>
+                <input id="text-message" type="text" placeholder="Digie sua mensagem">
+                <button onclick="sendMessage()"><i class="ph-paper-plane-right"></i></button>
             </div>
-        </form>
       </div>
     </div>
-    <script>
-        const messages = document.querySelector('.messages')
-
-        messages.lastElementChild.scrollIntoView()
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
