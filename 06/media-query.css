@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .top{
+    border-radius: 2.4rem;
+    transition: .2s;
+  }
+  .middle{
+    border-radius: 2.4rem;
+    transition: .2s;
+  }
+  .bottom{
+    border-radius: 2.4rem;
+    transition: .2s;
+  }
+}
+
+@media screen and (min-width: 768px){
+ section{
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+}
