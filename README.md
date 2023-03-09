@@ -40,5 +40,10 @@
                 <td><a href=".github/calculadora.png">&nbsp;&nbsp;&nbsp;&nbsp;👀&nbsp;&nbsp;<a/></td>
                 <td><a href="https://sweydmanaf.github.io/boracodar/05/index.html">🔗</a></td>
             </tr>
+            <td>06</td>
+                <td>Cartão de embarque</td>
+                <td><a href=".github/cartao-de-embarque.png">&nbsp;&nbsp;&nbsp;&nbsp;👀&nbsp;&nbsp;<a/></td>
+                <td><a href="https://sweydmanaf.github.io/boracodar/06/index.html">🔗</a></td>
+            </tr>
         </tbody>
     </table>
