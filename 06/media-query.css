@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  :root{
+    font-size: 50%;
+  }
   .top{
     border-radius: 2.4rem;
     transition: .2s;
