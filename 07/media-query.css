@@ -1,0 +1,40 @@
+/*
+
+Typical Device breakpoints
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (max-width: 768px) {
+  :root{
+    font-size: 30%;
+  }
+
+  header::before, header::after{
+    width: 60%;
+    display: none;
+  }
+
+  header form{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > .content{
+    margin: 10rem 2rem;
+  }
+
+  section.cards{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card{
+    max-width: 80vw;
+  }
+}
