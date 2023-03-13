@@ -88,6 +88,7 @@ header::before {
   background-image: url(assets/bg-header-top.svg);
   width: 40.7rem;
   height: 34.5rem;
+  background-size: cover;
 
   position: absolute;
   z-index: 0;
@@ -154,9 +155,14 @@ header form {
   align-items: center;
   gap: 1.2rem;
 
-  background: #f4f4f4;
+  background: #e4e4e4;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.116);
   border-radius: 0.5rem;
   padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+}
+
+.search-field:hover{
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
 }
 
 input,
@@ -186,8 +192,9 @@ select {
   color: #858793;
 }
 
-form button.btn{
+form button.btn {
   padding: 1.2rem 3.2rem;
+  width: max-content;
 }
 
 main > .content {
