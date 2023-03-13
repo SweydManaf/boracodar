@@ -11,30 +11,63 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (max-width: 768px) {
-  :root{
+  /* CELULAR */
+  :root {
     font-size: 30%;
   }
 
-  header::before, header::after{
+  header::before,
+  header::after {
     width: 60%;
     display: none;
   }
 
-  header form{
+  header form {
     flex-direction: column;
     align-items: center;
   }
 
-  main > .content{
+  main > .content {
     margin: 10rem 2rem;
   }
 
-  section.cards{
+  section.cards {
     grid-template-columns: 1fr;
     justify-items: center;
   }
 
-  .card{
+  .card {
     max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /*TABLET*/
+
+  :root {
+    font-size: 55%;
+  }
+
+  header::before,
+  header::after {
+    width: 60%;
+    display: none;
+  }
+
+  header form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > .content {
+    margin: 10rem 2rem;
+  }
+
+  section.cards {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .card {
+    max-width: 38.4rem;
   }
 }
