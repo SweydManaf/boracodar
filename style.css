@@ -13,7 +13,7 @@
   --bg-body-color: #121214;
   --bg-cards-color: #201F24;
   --text-color: #251F24;
-  --principal-color: #00B37E;
+  --principal-color: #9e00b3;
   --button-color: #29292E;
 
 }
@@ -52,11 +52,13 @@ img{
   margin: .5rem;
 
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+
+  transition: .2s;
 }
 
 .card:hover{
-  border: 1px solid var(--principal-color);
+  border: 2px solid var(--principal-color);
 }
 
 .content{
@@ -65,12 +67,12 @@ img{
 
 .top{
   display: flex;
-  gap: .4rem;
+  gap: .8rem;
 }
 
 .description{
   margin: 1rem 0;
-  opacity: .8;
+  opacity: .9;
 }
 
 .links{
@@ -80,11 +82,17 @@ img{
 
 .links button{
   width: 47%;
-  height: 3rem;
+  height: 4rem;
 
   background-color: var(--button-color);
   border: none;
   border-radius: 3px;
+
+  transition: .2s;
+}
+
+.links button:hover{
+  background-color: #323238;
 }
 
 .links a{
@@ -94,10 +102,26 @@ img{
   align-items: center;
 
   color: white;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
 .links i{
   font-size: 1.8rem;
   margin-left: .5rem;
+}
+
+footer{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+footer > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer > a:hover{
+  text-decoration: underline;
 }
