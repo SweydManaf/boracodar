@@ -154,15 +154,15 @@ header form {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-
-  background: #e4e4e4;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.116);
+  background: #ececec;
   border-radius: 0.5rem;
   padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+
+  transition: .2s;
 }
 
 .search-field:hover{
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
 }
 
 input,
@@ -231,6 +231,12 @@ section.cards {
 
   max-width: 38.4rem;
   overflow: hidden;
+  
+  transition: .2s;
+}
+
+.card:hover{
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
 }
 
 .card .content{
