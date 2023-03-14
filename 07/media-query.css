@@ -13,9 +13,9 @@ Grandes telas: acima de 1200px
 @media screen and (max-width: 768px) {
   /* CELULAR */
   :root {
-    font-size: 33%;
+    font-size: 30%;
   }
-
+ 
   header::before,
   header::after {
     width: 60%;
@@ -25,12 +25,25 @@ Grandes telas: acima de 1200px
   header form {
     flex-direction: column;
     align-items: center;
-    font-size: 140%;
-    min-width: 60rem;
+    font-size: 130%;
+    max-width: 80vw;
+    min-width: fit-content;
+    padding-inline: 0;
+    margin-inline: auto;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   main > .content {
     margin: 10rem 2rem;
+  }
+
+  section > h1{
+    font-size: 180%;
   }
 
   section.cards {
@@ -40,6 +53,10 @@ Grandes telas: acima de 1200px
 
   .card {
     max-width: 90vw;
+  }
+
+  h3, p{
+    font-size: 160%;
   }
 }
 
