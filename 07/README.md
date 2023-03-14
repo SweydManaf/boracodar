@@ -1,4 +1,4 @@
-<h1 align="center"> Product Card </h1>
+<h1 align="center"> Site para encontrar seu bloco no carnaval </h1>
 
 <p align="center">
 #boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img src="../.github/02.jpg" width="100%">
+  <img src="../.github/07.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,14 +28,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - Git e Github
 - Figma
+- Phosphor Icons
 
 ## 💻 Projeto
 
-- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/02/index.html)
+- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/07/index.html)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195050524500542670). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
