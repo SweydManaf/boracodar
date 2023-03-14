@@ -27,7 +27,7 @@ Grandes telas: acima de 1200px
     align-items: center;
     font-size: 130%;
     max-width: 80vw;
-    min-width: fit-content;
+    min-width: max-content;
     padding-inline: 0;
     margin-inline: auto;
   }
