@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --highlight-color: #7c3aed;
+  --chart-gradient-color: ;
+  --text-primary-color: #0f172a;
+  --text-secondary-color: #334155;
+  --surface-primary-color: #ffffff;
+  --surface-secondary-color: #ede9fe;
+  --graphic-elements-color: #94a3b8;
+  --bg-color: #f8fafc;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg-color);
+
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  width: 80rem;
+  height: 69.2rem;
+  padding: 6.4rem 8rem;
+
+  background-color: var(--surface-primary-color);
+  box-shadow: 0rem 0.4rem 3.2rem rgba(15, 23, 42, 0.15);
+  border-radius: 1.6rem;
+}
