@@ -1,7 +1,7 @@
 {
   // editor
   "editor.wordWrap": "on",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 22,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
@@ -17,7 +17,7 @@
 
   // workbench
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Omni",
 
   // prettier
