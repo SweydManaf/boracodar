@@ -27,6 +27,8 @@ body {
   height: 100vh;
   display: grid;
   place-content: center;
+
+  font-family: "Inter", sans-serif;
 }
 
 main {
@@ -37,4 +39,41 @@ main {
   background-color: var(--surface-primary-color);
   box-shadow: 0rem 0.4rem 3.2rem rgba(15, 23, 42, 0.15);
   border-radius: 1.6rem;
+
+  display: grid;
+gap: 6.4rem;
+}
+
+section h2 {
+  color: var(--text-primary-color);
+  font-size: 2rem;
+  line-height: 2.4rem;
+} 
+
+.conversor .wrapper {
+  margin-top: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.money-wrapper {
+  background-color: var(--surface-primary-color);
+
+  outline: 0.1rem solid var(--graphic-elements-color);
+  border-radius: 0.8rem;
+
+  width: 27rem;
+  padding: 1.6rem;
+}
+
+.money-wrapper:hover {
+  outline: 0.25rem solid var(--highlight-color);
+}
+
+.cambio .wrapper {
+  margin-top: 2.4rem;
+  width: 59.2rem;
+  height: 35.6rem;
+
+  border: 1px solid red;
 }
