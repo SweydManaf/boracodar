@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conversor de moedas</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-     
-  </main>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <script src="script.js"></script>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="conversor">
+        <h2>Conversor de moedas</h2>
+        <div class="wrapper">
+          <div class="money-wrapper">
+            <input type="text" class="amount" value="$1.000" />
+            <div class="dropdown">
+              <div class="selected">USD</div>
+              <ul>
+                <li>BRL</li>
+                <li>USD</li>
+                <li>EUR</li>
+                <li>GBP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="middle"></div>
+          <div class="money-wrapper"></div>
+        </div>
+      </section>
+      <section class="cambio">
+        <h2>Taxa de câmbio</h2>
+        <div class="wrapper"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
