@@ -41,14 +41,14 @@ main {
   border-radius: 1.6rem;
 
   display: grid;
-gap: 6.4rem;
+  gap: 6.4rem;
 }
 
 section h2 {
   color: var(--text-primary-color);
   font-size: 2rem;
   line-height: 2.4rem;
-} 
+}
 
 .conversor .wrapper {
   margin-top: 1.6rem;
@@ -64,10 +64,67 @@ section h2 {
 
   width: 27rem;
   padding: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.money-wrapper:hover {
+.money-wrapper:hover,
+.money-wrapper:has(:focus) {
   outline: 0.25rem solid var(--highlight-color);
+}
+
+/* AMOUNT */
+.amount {
+  border: 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--text-primary-color);
+  width: 50%;
+}
+
+.amount:focus {
+  outline: 0;
+}
+
+/* DROPDOWN */
+.dropdown {
+  width: 12.4rem;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  padding: 1.6rem;
+  border-radius: 0 0.8rem 0.8rem 0;
+  cursor: pointer;
+}
+
+.selected:before {
+  content: "";
+  height: 2.4rem;
+  width: 0.1rem;
+  background-color: var(--graphic-elements-color);
+}
+
+.selected:after {
+  content: "";
+}
+
+.selected:hover {
+  background-color: var(--surface-secondary-color);
+}
+
+.fi.fis {
+  font-size: 2.4rem;
+  border-radius: 50%;
 }
 
 .cambio .wrapper {
