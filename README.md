@@ -82,5 +82,11 @@
             <td><a href="https://sweydmanaf.github.io/boracodar/07/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="07"><img width="300px" src="previews/07.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>09</td>
+            <td><a href="09">Conversor de moedas</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/09/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="09"><img width="300px" src="previews/09.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
