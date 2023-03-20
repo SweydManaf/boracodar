@@ -32,8 +32,6 @@ body {
 }
 
 main {
-  width: 80rem;
-  height: 69.2rem;
   padding: 6.4rem 8rem;
 
   background-color: var(--surface-primary-color);
@@ -53,9 +51,11 @@ section h2 {
 .conversor .wrapper {
   margin-top: 1.6rem;
   display: flex;
+  align-items: center;
   gap: 1.6rem;
 }
 
+/* MONEY-WRAPPER */
 .money-wrapper {
   background-color: var(--surface-primary-color);
 
@@ -90,11 +90,19 @@ section h2 {
 
 /* DROPDOWN */
 .dropdown {
-  width: 12.4rem;
+  width: 13rem;
 
   position: absolute;
   top: 0;
   right: 0;
+
+  height: 5.6rem;
+  overflow: hidden;
+}
+
+.dropdown:hover {
+  overflow: initial;
+  height: fit-content;
 }
 
 .selected {
@@ -112,12 +120,18 @@ section h2 {
   height: 2.4rem;
   width: 0.1rem;
   background-color: var(--graphic-elements-color);
+  position: absolute;
+  left: 0;
 }
 
 .selected:after {
   content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url(assets/chevrov-down.svg) no-repeat;
 }
 
+li:hover,
 .selected:hover {
   background-color: var(--surface-secondary-color);
 }
@@ -127,10 +141,92 @@ section h2 {
   border-radius: 50%;
 }
 
+/* UL */
+
+ul {
+  list-style: none;
+  box-shadow: 0px 4px 16px rgba(15, 23, 42, 0.15);
+  border-radius: 8px;
+
+  padding: 0;
+
+  width: 16rem;
+  max-height: 17rem;
+
+  margin-top: .8rem;
+  background-color: #ffffff;
+
+  overflow-y: scroll;
+
+  position: relative;
+  z-index: 1;
+}
+
+li{
+  padding: 1.2rem 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  cursor: pointer;
+}
+
+/* CAMBIO */
 .cambio .wrapper {
   margin-top: 2.4rem;
-  width: 59.2rem;
-  height: 35.6rem;
+}
 
-  border: 1px solid red;
+.tooltip{
+  background-color: white;
+  box-shadow:  0 .4rem 1.6rem rgb(15, 23, 42, .15);
+  border-radius: .4rem;
+  padding: .8rem;
+}
+
+.chart-controls{
+  display: flex;
+  justify-content: space-between;
+  margin: -2.2rem .8rem 0 4rem;
+}
+
+.chart-controls button{
+  background-color: transparent;
+  border: 0;
+
+  width: 4rem;
+  height: 2.4rem;
+
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.chart-controls button:hover,
+.chart-controls button.active{
+  background-color: var(--highlight-color);
+  color: white;
+  border-radius: 999px;
+  padding: .4rem .8rem;
+}
+
+@media (max-width: 48rem){
+  main{
+    padding: .1.6rem;
+    gap: 3.2rem;
+  }
+
+  secttion h2{
+    font-size: 1.6rem;
+  }
+
+  .conversor .wrapper{
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  .money-wrapper{
+    width: 100%;
+  }
 }

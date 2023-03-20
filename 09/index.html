@@ -51,16 +51,54 @@
               </ul>
             </div>
           </div>
-          <div class="middle"></div>
-          <div class="money-wrapper"></div>
+          <div class="middle">
+            <img src="assets/arrows-exchange.svg" alt="" />
+          </div>
+          <div class="money-wrapper">
+            <input readonly type="text" class="amount" value="R$ 5.148,20" />
+            <div class="dropdown">
+              <div class="selected">
+                <span class="fi fi-br fis"></span>
+                USD
+              </div>
+              <ul>
+                <li>
+                  <span class="fi fi-br fis"></span>
+                  BRL
+                </li>
+                <li>
+                  <span class="fi fi-us fis"></span>
+                  USD
+                </li>
+                <li>
+                  <span class="fi fi-eu fis"></span>
+                  EUR
+                </li>
+                <li>
+                  <span class="fi fi-gb fis"></span>
+                  GBP
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section class="cambio">
         <h2>Taxa de câmbio</h2>
-        <div class="wrapper"></div>
+        <div class="wrapper">
+          <div id="chart"></div>
+          <div class="chart-controls">
+            <button>1D</button>
+            <button>5D</button>
+            <button class="active">1M</button>
+            <button>1A</button>
+            <button>5A</button>
+            <button>Máx</button>
+          </div>
+        </div>
       </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="script.js"></script>
   </body>
 </html>
