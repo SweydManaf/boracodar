@@ -215,6 +215,9 @@ li{
   main{
     padding: .1.6rem;
     gap: 3.2rem;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
   }
 
   secttion h2{
