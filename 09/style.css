@@ -218,6 +218,7 @@ li{
     width: 100vw;
     height: 100vh;
     border-radius: 0;
+    overflow-x: hidden;
   }
 
   secttion h2{
