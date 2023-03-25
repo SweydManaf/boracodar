@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uma página de login</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uma página de login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page" class="flex">
+      <div>
+        <header></header>
+        <main>
+          <div class="headline">
+            <h1>Acesse a plataforma</h1>
+            <p>
+              Faça login ou registre-se para começar a construir seus projetos
+              ainda hoje.
+            </p>
+          </div>
+          <form>
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="input-wrapper">
+              <div class="label-wrapper">
+                <label for="senha">Senha</label>
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+              <input type="password" id="senha" />
+              <img class="show-password" src="" alt="">
+              <img class="hide-password" src="" alt="">
+            </div>
+            <button type="submit">Entrar</button>
+            <div class="create-account">
+              Ainda não tem uma conta? <a href="#">Inscreva-se</a>
+            </div>
+          </form>
+        </main>
+      </div>
+      <img src="assets/bg.jpg" alt="">
+    </div>
+  </body>
 </html>
