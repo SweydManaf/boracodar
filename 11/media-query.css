@@ -15,10 +15,14 @@ Grandes telas: acima de 1200px
     font-size: 57%;
   }
 
-  #page > div{
+  #page > div{  
+    width: 90vw;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     padding: 0;
     margin: auto;
   }
@@ -34,12 +38,8 @@ Grandes telas: acima de 1200px
   main{
     margin-top: 0;
 
-    min-width: 27rem;
+    min-width: 7rem;
 
-    max-height: 100vh;
-    max-width: max-content;
-
-    overflow: hidden;
   }
   div#page > img{
     display: none;
