@@ -35,7 +35,7 @@ Grandes telas: acima de 1200px
     margin-top: 0;
 
     min-width: 27rem;
-
+    width: 100vw;
     max-height: 100vh;
     max-width: max-content;
   }
