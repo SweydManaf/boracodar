@@ -10,19 +10,27 @@
 
 :root {
   font-size: 62.5%;
+  font-family: "Titillium Web", sans-serif;
 }
 
 body {
   font-size: 1.6rem;
 }
 
-button{
+button {
   all: unset;
   box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 #page {
@@ -53,53 +61,95 @@ header img {
 
 main {
   margin-top: 11.4rem;
+  max-width: 38.4rem;
 }
 
 .headline {
   max-width: 35rem;
 }
 
+h1 {
+  font-size: 3.6rem;
+  line-height: 5.5rem;
+  color: #1e293b;
+}
+
+h1 + p {
+  color: #475569;
+  margin-top: 1.6rem;
+}
+
 form {
   margin-top: 4rem;
 }
 
-.input-wrapper{
+.input-wrapper {
   position: relative;
+}
+
+label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1e293b;
+}
+
+label + a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+label::placeholder {
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #94a3b8;
 }
 
 form input {
   width: 100%;
   background: #ffffff;
 
-  border: .1rem solid #e2e8f0;
-  border-radius: .4rem;
+  border: 0.1rem solid #e2e8f0;
+  border-radius: 0.4rem;
   padding: 1.6rem 1.2rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
+
+  font-size: 14px;
+  line-height: 21px;
+  color: #1e293b;
 }
 
-.label-wrapper{
+input:focus,
+input:hover {
+  border: 1px solid #7c3aed;
+  outline: 0;
+}
+
+.label-wrapper {
   justify-content: space-between;
 }
 
-::-ms-reveal{
+::-ms-reveal {
   display: none;
 }
 
-.eye{
+.eye {
   width: 2rem;
   height: 2rem;
 
   position: absolute;
-  top: 52%;
+  top: 55%;
   right: 5%;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-form  .input-wrapper + .input-wrapper{
-margin-top: 1.6rem;
+form .input-wrapper + .input-wrapper {
+  margin-top: 1.6rem;
 }
 
 form button {
@@ -125,4 +175,8 @@ form button:focus {
 
 form button:hover {
   background: #9f67ff;
+}
+
+.create-account {
+  color: #475569;
 }

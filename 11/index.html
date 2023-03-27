@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +17,9 @@
   <body>
     <div id="page" class="flex">
       <div>
-        <header></header>
+        <header>
+          <img src="assets/logo.svg" alt="" />
+        </header>
         <main>
           <div class="headline">
             <h1>Acesse a plataforma</h1>
@@ -22,16 +31,26 @@
           <form>
             <div class="input-wrapper">
               <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" required placeholder="Dígite seu e-mail"/>
             </div>
             <div class="input-wrapper">
-              <div class="label-wrapper">
+              <div class="label-wrapper flex">
                 <label for="senha">Senha</label>
                 <a href="#">Esqueceu a senha?</a>
               </div>
-              <input type="password" id="senha" />
-              <img class="show-password" src="" alt="">
-              <img class="hide-password" src="" alt="">
+              <input type="password" id="senha" placeholder="Dígite seu senha"/>
+              <img
+                onclick="togglePassword()"
+                class="eye"
+                src="assets/eye-off.svg"
+                alt=""
+              />
+              <img
+                onclick="togglePassword()"
+                class="eye hide"
+                src="assets/eye.svg"
+                alt=""
+              />
             </div>
             <button type="submit">Entrar</button>
             <div class="create-account">
@@ -40,7 +59,19 @@
           </form>
         </main>
       </div>
-      <img src="assets/bg.jpg" alt="">
+      <img src="assets/bg.jpg" alt="" />
     </div>
+
+    <script>
+      function togglePassword() {
+        document.querySelectorAll(".eye").forEach((eye) => {
+          eye.classList.toggle("hide")
+        })
+
+        const type =
+          senha.getAttribute("type") == "password" ? "text" : "password"
+        senha.setAttribute("type", type)
+      }
+    </script>
   </body>
 </html>
