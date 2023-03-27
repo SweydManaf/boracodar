@@ -16,7 +16,7 @@ Grandes telas: acima de 1200px
   }
 
   #page > div{  
-    width: 90vw;
+    width: 95vw;
     height: 100vh;
 
     display: flex;
@@ -25,6 +25,8 @@ Grandes telas: acima de 1200px
 
     padding: 0;
     margin: auto;
+
+    overflow: hidden;
   }
   header{
     margin-top: -5rem;
