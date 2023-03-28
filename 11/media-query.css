@@ -12,37 +12,36 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 992px) {
   :root{
-    font-size: 57%;
+    font-size: 60%;
+  }
+
+  #page > *{
+    width: 100%;
+  }
+
+  #page{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
   }
 
   #page > div{  
-    width: 95vw;
-    height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     padding: 0;
-    margin: auto;
-
-    overflow: hidden;
   }
+  
   header{
-    margin-top: -5rem;
-  }
-
-  header img{
-    width: 10rem;
-    object-fit: contain;
+    margin-bottom: 3rem;
   }
 
   main{
     margin-top: 0;
-
     min-width: 7rem;
-
   }
+
   div#page > img{
     display: none;
   }
