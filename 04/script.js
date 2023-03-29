@@ -14,7 +14,7 @@ function getHoraAtual() {
 }
 
 function sendMessage() {
-  let message = document.querySelector("#text-message").value;
+  let message = document.querySelector("#text-message");
   let data = Date();
 
   if (message !== "") {
@@ -28,12 +28,12 @@ function sendMessage() {
 
     let divBody = document.createElement("div");
     divBody.classList.add("body");
-    divBody.innerText = message;
+    divBody.innerText = message.value;
 
     divMessage.appendChild(divTop);
     divMessage.appendChild(divBody);
     divMessages.appendChild(divMessage);
   }
 
-  message = "";
+  message.value = "";
 }
