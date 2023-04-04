@@ -87,6 +87,9 @@ label {
   font-weight: 600;
   font-size: 1.4rem;
   color: #e5e7eb;
+
+  gap: .4rem;
+  align-items: center;
 }
 
 input {
@@ -112,4 +115,9 @@ input:focus {
 
 .col-2 .input-wrapper:nth-child(2){
   flex-basis: 40%;
+}
+
+.help img{
+  width: 1.6rem;
+  height: 1.6rem;
 }
