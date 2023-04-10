@@ -17,7 +17,49 @@
   <body>
     <form>
       <section id="credit-card">
-        <div class="front"></div>
+        <div class="front">
+          <img src="assets/Background Blur.png" alt="" id="background-blur" />
+          <div class="front-icons flex-template">
+            <img src="assets/vector-visa.svg" alt="" />
+            <img src="assets/vector-payment.svg" alt="" />
+          </div>
+          <div class="card-number flex-template">
+            <div class="div1">
+              <span>1</span>
+              <span>2</span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+            </div>
+            <div class="div2">
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+            </div>
+            <div class="div3">
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span>6</span>
+            </div>
+            <div class="div4">
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+            </div>
+          </div>
+          <div class="info-card flex-template">
+            <div class="name">Seu nome aqui</div>
+            <div class="validity">
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+              /
+              <span><img src="assets/span.svg" alt="" /></span>
+              <span><img src="assets/span.svg" alt="" /></span>
+            </div>
+          </div>
+        </div>
         <div class="back"></div>
       </section>
       <section class="inputs flex">
@@ -34,7 +76,10 @@
             required
           />
           <div class="warning">
-            <img src="https://i.ibb.co/7yY8KYN/warning.png" alt="ícone de alerta">
+            <img
+              src="https://i.ibb.co/7yY8KYN/warning.png"
+              alt="ícone de alerta"
+            />
             Nome do titular é obrigatório
           </div>
         </div>
@@ -42,18 +87,26 @@
         <div class="col-2 flex">
           <div class="input-wrapper">
             <label for="cc-validity">Validade</label>
-            <input type="text" id="cc-validity" placeholder="mm/aa ">
+            <input type="text" id="cc-validity" placeholder="mm/aa " />
           </div>
           <div class="input-wrapper">
-            <label for="cc-ccv" class="flex help">CVV
-              <img src="https://i.ibb.co/NTZY5qH/question.png" alt="Ícone de ajuda" title="Esse número está geralmente, nas costas do seu cartão.">
+            <label for="cc-ccv" class="flex help"
+              >CVV
+              <img
+                src="https://i.ibb.co/NTZY5qH/question.png"
+                alt="Ícone de ajuda"
+                title="Esse número está geralmente, nas costas do seu cartão."
+              />
             </label>
-            <input type="text" id="cc-ccv" placeholder="*** ">
+            <input type="text" id="cc-ccv" placeholder="*** " />
           </div>
         </div>
       </section>
       <section class="info-security flex">
-        <img src="https://i.ibb.co/4FZhFCq/shield-check.png" title="Ícone de segurança">
+        <img
+          src="https://i.ibb.co/4FZhFCq/shield-check.png"
+          title="Ícone de segurança"
+        />
         Seus dados estão seguros
       </section>
       <section>
@@ -63,5 +116,5 @@
 
     <script src="https://unpkg.com/imask"></script>
     <script src="script.js"></script>
-  </body> 
+  </body>
 </html>
