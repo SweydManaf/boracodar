@@ -88,5 +88,17 @@
             <td><a href="https://sweydmanaf.github.io/boracodar/09/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="09"><img width="300px" src="previews/09.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>11</td>
+            <td><a href="11">Uma página de login</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/11/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="11"><img width="300px" src="previews/11.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td><a href="13">Um formulário de cartão</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/13/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="13"><img width="300px" src="previews/13.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>

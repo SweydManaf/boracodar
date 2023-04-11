@@ -1,4 +1,4 @@
-<h1 align="center"> Chat </h1>
+<h1 align="center"> Uma página de login </h1>
 
 <p align="center">
 #boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img src="../previews/04.jpg" width="100%">
+  <img src="../previews/11.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,16 +26,16 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- Git e Github
+- JavaScript e DOM
 - Figma
 
 ## 💻 Projeto
 
-- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/04/index.html)
+- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/11/index.html)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195050524500542670). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1217810469465160264). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
