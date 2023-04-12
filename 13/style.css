@@ -67,7 +67,7 @@ form {
   border-radius: 1.6rem;
 }
 
-#credit-card .front #background-blur {
+#credit-card .front .background-blur {
   position: absolute;
   width: 28rem;
   height: 16.8rem;
@@ -120,6 +120,7 @@ form {
 
   color: #f9fafb;
 }
+
 #credit-card .front .info-card .name {
   font-style: normal;
   font-weight: 400;
@@ -131,17 +132,88 @@ form {
   display: flex;
   gap: 0.4rem;
 }
+
 #credit-card .front .info-card .validity span {
   display: flex;
   align-items: center;
 }
+
 #credit-card .back {
-  background: url(https://i.ibb.co/kDnMdtZ/cc-back.png) no-repeat;
+  width: 28rem;
+  height: 16.8rem;
+
+  background: #111827;
+  border: 0.1rem solid #374151;
+  box-shadow: 0rem 0.4rem 2.4rem rgba(0, 0, 0, 0.068);
+  border-radius: 1.6rem;
+
   transform: rotateY(-180deg);
   top: -5px;
 }
 
-/* #credit-card:active .front,
+#credit-card .back .background-blur {
+  position: absolute;
+  width: 28rem;
+  height: 16.8rem;
+  left: calc(50% - 28rem / 2);
+  top: calc(50% - 16.8rem / 2);
+
+  background: rgba(17, 24, 39, 0.4);
+  backdrop-filter: blur(2.4rem);
+  border-radius: 1.6rem;
+}
+
+#credit-card .back .rectangle {
+  position: absolute;
+  width: 28rem;
+  height: 3.2rem;
+  left: 0rem;
+  top: 1.6rem;
+
+  background: #111827;
+}
+
+#credit-card .back .frame-cvv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
+  position: absolute;
+  width: 23.2rem;
+  height: 3.2rem;
+  left: 2.4rem;
+  top: 9.4rem;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: right;
+
+  color: #e5e7eb;
+}
+
+#credit-card .back .frame-cvv .cvv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.2rem;
+  gap: 0.4rem;
+
+  width: 20.1rem;
+  height: 3.2rem;
+
+  background: #d1d5db;
+  border-radius: 0.4rem;
+}
+
+#credit-card .back .frame-cvv .cvv span {
+  color: #111827;
+}
+
+#credit-card:active .front,
 #credit-card:hover .front {
   transform: rotateY(180deg);
 }
@@ -149,7 +221,7 @@ form {
 #credit-card:active .back,
 #credit-card:hover .back {
   transform: rotateY(0deg);
-} */
+}
 
 .flex {
   display: flex;
