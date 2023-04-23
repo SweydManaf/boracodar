@@ -36,10 +36,12 @@ form {
 }
 
 #credit-card {
-  width: 32.8rem;
+  width: 35.2rem;
   height: 21.2rem;
 
   perspective: 60rem;
+  display: grid;
+  justify-content: center;
 }
 
 #credit-card > div {
@@ -47,8 +49,8 @@ form {
   height: inherit;
 
   position: absolute;
-  top: 0;
-  left: 0;
+  display: grid;
+  justify-self: center;
   z-index: 1000;
 
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
