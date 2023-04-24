@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html,
+body {
+  background: #fbfaff;
+  min-height: 100vh;
+  font-family: "Inter";
+  line-height: 130%;
+}
+
+#app{
+  min-height: 100vh;
+  max-width: 44rem;
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.drag-files{
+  background: #f3f0ff;
+  border: 1px dashed #c1b2fa;
+  border-radius: .8rem;
+
+  text-align: center;
+  padding: 2.8rem 0 3.2rem;
+  position: relative;
+}
+
+.drag-files input{
+  all: unset;
+  opacity: 0;
+  inset: 0;
+  position: absolute;
+}
+
+.drag-files i.ph{
+font-size: 4.8rem;
+color: #7c3aed;
+}
+
+.drag-files h3{
+  margin-top: 1.2rem;
+  color: #7a5fec;
+  font-size: 1.6rem;
+}
+
+.drag-files p{
+  font-size: 1.4rem;
+  color: #746e82;
+}
+
+.drag-files.dragover{
+  background: #ebe6ff;
+}
+
+/* upload boxes */
+.files{
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.2rem;
+}
+
+
+/* box */
+
+.box{
+  padding: .8rem;
+  background: #fff;
+
+  box-shadow: 0 .4rem 1.6rem #eae2fd;
+  border-radius: .8rem;
+
+  display: flex;
+  gap: 1.2rem;
+
+  --icon-bg: #eee;
+  --icon-color: #aaa;
+  --progress-color: black;
+  --progress-text: #999;
+}
+
+/* icon */
+
+.box .icon{
+  background-color: var(--icon-bg);
+  border-radius: .4rem;
+  padding: 1.6rem 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .icon i{
+  font-size: 2.4rem;
+  color: var(--icon-color);
+}
+
+/* info */
+
+.box .info{
+  flex: 1;
+}
+
+.info .filename{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #575361;
+}
+
+.info .filesize{
+  color: #857e95;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* bar progress */
+.bar{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  line-height: 0;
+  margin-top: .4rem;
+}
+
+progress{
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+
+  height: .8rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar{
+   background: #e3e3ed;
+}
+
+progress::-webkit-progress-value{
+  background: var(--progress-color);
+}
