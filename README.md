@@ -102,7 +102,7 @@
         </tr>
         <tr>
             <td>14</td>
-            <td><a href="13">Um componente de upload</a></td>
+            <td><a href="14">Um componente de upload</a></td>
             <td><a href="https://sweydmanaf.github.io/boracodar/14/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="14"><img width="300px" src="previews/14.jpg" /></a></td>
         </tr>
