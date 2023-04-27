@@ -106,5 +106,11 @@
             <td><a href="https://sweydmanaf.github.io/boracodar/14/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="14"><img width="300px" src="previews/14.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="15">Pricing Table</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/15/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="15"><img width="300px" src="previews/15.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
