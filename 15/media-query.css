@@ -12,15 +12,15 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 992px) {
   body{
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 
   }
   .pricing-table{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1080px;
-    align-items: start;
-
   }
 }
