@@ -17,7 +17,13 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
+  body{
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+  }
   .cards{
+    max-width: 1420px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
