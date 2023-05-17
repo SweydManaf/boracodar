@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Um Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="dashboard">
+      <div id="global-statics">
+        <div id="nps-geral">
+          <div class="top">NPS geral</div>
+          <div class="middle">
+            <img src="assets/emoji.svg" alt="emoji" />
+            <span>Excelente!</span>
+          </div>
+          <div class="bottom">
+            <div>NPS Score <span>75</span></div>
+          </div>
+        </div>
+        <div id="vendas-fechadas">
+          <div class="top">Vendas fechadas</div>
+          <div class="middle">
+            <span>70%</span>
+            <small>alcançada</small>
+
+            <img src="assets/bg-circle.svg" alt="" class="bg-circle-progress" />
+            <img
+              src="assets/Ellipse 1.svg"
+              alt=""
+              class="bg-circle-progress circle-progress"
+            />
+          </div>
+          <div class="bottom">
+            <div class="left">
+              <div>
+                <img src="assets/ball-1.png" alt="status" />
+                <span>Esperado</span>
+              </div>
+              <span>100</span>
+            </div>
+            <div class="right">
+              <div><img src="assets/ball-2.png" alt="status" /> Alcançado</div>
+              <span>70</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div id="meta-mensal">
+            <div class="top">Meta mensal</div>
+            <div class="middle">
+              <span>90%</span>
+              <small>alcançada</small>
+              <img
+                src="assets/bg-circle.svg"
+                alt=""
+                class="bg-circle-progress"
+              />
+              <img
+                src="assets/circle-meta-mensal.svg"
+                alt=""
+                class="bg-circle-progress circle-progress"
+              />
+            </div>
+            <div class="bottom">
+              <div class="left">
+                <div>
+                  <img src="assets/ball-3.png" alt="status" />
+                  <span>Esperado</span>
+                </div>
+                <span>RS 70K</span>
+              </div>
+              <div class="right">
+                <div>
+                  <img src="assets/ball-4.png" alt="status" />
+                  <span>Alcançado</span>
+                </div>
+                <span>RS 63K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="weekly">
+        <div class="title">Vendas por dia da semana</div>
+        <div class="content">
+          <div class="sell-statics">
+            <div class="high">
+              <div>
+                <img src="assets/high.png" alt="" />
+                <span>Dia com mais vendas</span>
+              </div>
+              <div>quarta-feira</div>
+            </div>
+            <div class="low">
+              <div>
+                <img src="assets/low.png" alt="" />
+                <span>Dia com menos vendas</span>
+              </div>
+              <div>domingo</div>
+            </div>
+          </div>
+          <div class="graphic">
+            <div class="days">
+              <div class="dom-bar"></div>
+              <span>dom</span>
+            </div>
+            <div class="days">
+              <div class="seg-bar"></div>
+              <span>seg</span>
+            </div>
+            <div class="days">
+              <div class="ter-bar"></div>
+              <span>ter</span>
+            </div>
+            <div class="days">
+              <div class="qua-bar"></div>
+              <span>qua</span>
+            </div>
+            <div class="days">
+              <div class="qui-bar"></div>
+              <span>qui</span>
+            </div>
+            <div class="days">
+              <div class="sex-bar"></div>
+              <span>sex</span>
+            </div>
+            <div class="days">
+              <div class="sab-bar"></div>
+              <span>sab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

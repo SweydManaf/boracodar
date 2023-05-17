@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  background: #292738;
+  color: white;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+}
+
+#global-statics {
+  display: flex;
+  gap: 32px;
+}
+
+#nps-geral,
+#vendas-fechadas,
+#meta-mensal {
+  background-color: #363447;
+  box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+#nps-geral .top,
+#vendas-fechadas .top,
+#meta-mensal .top {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+#nps-geral .top,
+#vendas-fechadas .top,
+#meta-mensal .top {
+  margin: 29px 91px 32px 91px;
+}
+
+#nps-geral .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#nps-geral .middle > img {
+  width: 54px;
+  height: 54px;
+}
+
+#nps-geral .middle > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+
+  color: #81fbb8;
+}
+
+#nps-geral .bottom {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+
+  margin-block: 32px 29px;
+}
+
+#nps-geral .bottom span {
+  font-weight: 400;
+}
+
+#vendas-fechadas .middle,
+#meta-mensal .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 197px;
+  height: 197px;
+  position: relative;
+}
+
+#vendas-fechadas .middle > small,
+#meta-mensal .middle > small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+#vendas-fechadas .middle span,
+#meta-mensal .middle span {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 160%;
+}
+
+#vendas-fechadas .middle .bg-circle-progress,
+#meta-mensal .middle .bg-circle-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#vendas-fechadas .bottom,
+#meta-mensal .bottom {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 29px;
+  margin-inline: 48px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+#vendas-fechadas .bottom .left,
+#vendas-fechadas .bottom .right,
+#meta-mensal .bottom .left,
+#meta-mensal .bottom .right {
+  display: flex;
+  gap: 10px;
+}
+
+#vendas-fechadas .bottom .left div,
+#vendas-fechadas .bottom .right div,
+#meta-mensal .bottom .left div,
+#meta-mensal .bottom .right div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#vendas-fechadas .bottom .left span,
+#vendas-fechadas .bottom .right span,
+#meta-mensal .bottom .left span,
+#meta-mensal .bottom .right span {
+  font-weight: 400;
+}
+
+#weekly {
+  background-color: #363447;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  padding: 29px 48px;
+}
+
+#weekly .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+#weekly .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+#weekly .content .sell-statics {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#weekly .content .sell-statics .high,
+#weekly .content .sell-statics .low {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+#weekly .content .sell-statics .high span,
+#weekly .content .sell-statics .low span {
+  font-size: 14px;
+}
+
+#weekly .content .graphic {
+  display: flex;
+  align-items: end;
+  gap: 59px;
+
+  position: relative;
+}
+
+#weekly .content .graphic::after {
+  content: "";
+  background: #4a4556;
+  border-radius: 999px;
+  position: absolute;
+  width: 523px;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#weekly .content .graphic .days {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  z-index: 1;
+}
+
+#weekly .content .graphic .days .dom-bar {
+  width: 15px;
+  height: 39px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .seg-bar {
+  width: 15px;
+  height: 115px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .ter-bar {
+  width: 15px;
+  height: 76px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .qua-bar {
+  width: 15px;
+  height: 159px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .qui-bar {
+  width: 15px;
+  height: 129px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .sex-bar {
+  width: 15px;
+  height: 120px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
+
+#weekly .content .graphic .days .sab-bar {
+  width: 15px;
+  height: 69px;
+
+  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  border-radius: 999px;
+}
