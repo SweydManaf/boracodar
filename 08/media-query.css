@@ -10,38 +10,46 @@ Grandes telas: acima de 1200px
 
 */
 
-@media screen and (max-width: 1129px){
-  :root{
+@media screen and (max-width: 1129px) {
+  :root {
     font-size: 50.5%;
   }
-
 }
 
-@media screen and (max-width: 969px){
-  :root{
+@media screen and (max-width: 969px) {
+  :root {
     font-size: 62.5%;
   }
   #global-statics {
-  grid-template-areas: "A" "B" "C";
-}
+    grid-template-areas: "A" "B" "C";
+  }
 }
 
-@media screen and (max-width: 853px){
-  :root{
+@media screen and (max-width: 853px) {
+  :root {
     font-size: 57.5%;
   }
+  body {
+    height: max-content;
+    margin-block: 5rem;
+  }
   #global-statics {
-  grid-template-areas: 
-  "A" "B" "C";
-}
+    grid-template-areas: "A" "B" "C";
+    justify-content: center;
+  }
+  #nps-geral,
+  #vendas-fechadas,
+  #meta-mensal {
+    width: fit-content;
+
+  }
 }
 
-@media screen and (max-width: 789px){
-  :root{
+@media screen and (max-width: 789px) {
+  :root {
     font-size: 24.5%;
   }
   #global-statics {
-  grid-template-areas: 
-  "A" "B" "C";
-}
+    grid-template-areas: "A" "B" "C";
+  }
 }
