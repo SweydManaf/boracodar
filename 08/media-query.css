@@ -9,3 +9,38 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 
 */
+
+@media screen and (max-width: 1129px){
+  :root{
+    font-size: 50.5%;
+  }
+}
+
+@media screen and (max-width: 969px){
+  :root{
+    font-size: 62.5%;
+  }
+  #global-statics {
+  "A" "B" "C";
+}
+}
+
+@media screen and (max-width: 853px){
+  :root{
+    font-size: 57.5%;
+  }
+  #global-statics {
+  grid-template-areas: 
+  "A" "B" "C";
+}
+}
+
+@media screen and (max-width: 789px){
+  :root{
+    font-size: 24.5%;
+  }
+  #global-statics {
+  grid-template-areas: 
+  "A" "B" "C";
+}
+}

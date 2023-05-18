@@ -33,8 +33,22 @@ main {
 }
 
 #global-statics {
-  display: flex;
+  display: grid;
+  grid-template-areas: "A B C";
+  align-items: stretch;
   gap: 3.2rem;
+}
+
+#nps-geral{
+  grid-area: A;
+}
+
+#vendas-fechadas{
+  grid-area: B;
+}
+
+#meta-mensal{
+  grid-area: C;
 }
 
 #nps-geral,
@@ -43,7 +57,7 @@ main {
   background-color: #363447;
   box-shadow: .3rem .4rem 2.6rem rgba(0, 0, 0, 0.25);
   border-radius: 1.6rem;
-
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,6 +138,8 @@ main {
 
 #vendas-fechadas .middle .bg-circle-progress,
 #meta-mensal .middle .bg-circle-progress {
+  width: 19.7rem;
+  height: 19.7rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,6 +173,14 @@ main {
   display: flex;
   align-items: center;
   gap: .4rem;
+}
+
+#vendas-fechadas .bottom .left div img,
+#vendas-fechadas .bottom .right div img,
+#meta-mensal .bottom .left div img,
+#meta-mensal .bottom .right div img {
+width: 1.5rem;
+height: 1.5rem;
 }
 
 #vendas-fechadas .bottom .left span,
