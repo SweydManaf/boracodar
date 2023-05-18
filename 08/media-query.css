@@ -14,6 +14,7 @@ Grandes telas: acima de 1200px
   :root{
     font-size: 50.5%;
   }
+
 }
 
 @media screen and (max-width: 969px){
@@ -21,7 +22,7 @@ Grandes telas: acima de 1200px
     font-size: 62.5%;
   }
   #global-statics {
-  "A" "B" "C";
+  grid-template-areas: "A" "B" "C";
 }
 }
 
