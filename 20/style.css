@@ -111,7 +111,7 @@ main {
   outline-color: white;
 }
 
-/* MEDIA QUERIES
+/* MEDIA QUERIES */
 /*
 
 Typical Device breakpoints
@@ -123,7 +123,7 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 
 */
-/*
+
 @media screen and (max-width: 600px) {
   :root {
     font-size: 15%;
@@ -160,4 +160,4 @@ Grandes telas: acima de 1200px
   :root {
     font-size: 80%;
   }
-} */
+}
