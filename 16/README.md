@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img src="../previews/17.jpg" width="100%">
+  <img src="../previews/16.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/17/index.html)
+- [Visite o projeto online](https://sweydmanaf.github.io/boracodar/16/index.html)
 
 ## 🔖 Layout
 
