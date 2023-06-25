@@ -162,7 +162,7 @@ header form {
 }
 
 .search-field:hover{
-  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.26);
 }
 
 input,
@@ -230,6 +230,7 @@ section.cards {
   border-radius: 1rem;
 
   max-width: 38.4rem;
+  display: block;
   overflow: hidden;
   
   transition: .2s;
