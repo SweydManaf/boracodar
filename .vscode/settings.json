@@ -17,7 +17,7 @@
 
   // workbench
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "symbols",
   "workbench.colorTheme": "Omni",
 
   // prettier
