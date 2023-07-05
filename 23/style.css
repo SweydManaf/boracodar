@@ -139,6 +139,7 @@ form {
 }
 
 .secondary:hover {
+  background-color: var(--color-base-gray-100);
 }
 
 .justify-end {
@@ -191,4 +192,24 @@ textarea::placeholder {
 
 .hide{
   display: none;
+}
+
+/* MEDIA QUERIES */
+
+/*
+
+Typical Device breakpoints
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media (max-width: 768px) {
+  :root{
+    font-size: 36%;
+  }
 }
