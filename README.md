@@ -83,6 +83,12 @@
             <td align="center" ><a href="07"><img width="300px" src="previews/07.jpg" /></a></td>
         </tr>
         <tr>
+            <td>08</td>
+            <td><a href="08">Dashboard</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/08/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="08"><img width="300px" src="previews/08.jpg" /></a></td>
+        </tr>
+        <tr>
             <td>09</td>
             <td><a href="09">Conversor de moedas</a></td>
             <td><a href="https://sweydmanaf.github.io/boracodar/09/index.html">ACESSO DIRECTO</a></td>
@@ -111,6 +117,12 @@
             <td><a href="15">Pricing Table</a></td>
             <td><a href="https://sweydmanaf.github.io/boracodar/15/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="15"><img width="300px" src="previews/15.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><a href="16">Uma página de contatos</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/16/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="16"><img width="300px" src="previews/16.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
