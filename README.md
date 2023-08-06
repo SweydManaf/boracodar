@@ -124,5 +124,23 @@
             <td><a href="https://sweydmanaf.github.io/boracodar/16/index.html">ACESSO DIRECTO</a></td>
             <td align="center" ><a href="16"><img width="300px" src="previews/16.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="17">Date Picker</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/17/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="17"><img width="300px" src="previews/17.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><a href="20">Uma galeria com hover</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/20/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="20"><img width="300px" src="previews/20.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td><a href="23">formulário multi step</a></td>
+            <td><a href="https://sweydmanaf.github.io/boracodar/23/index.html">ACESSO DIRECTO</a></td>
+            <td align="center" ><a href="23"><img width="300px" src="previews/23.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
